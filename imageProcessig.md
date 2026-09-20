@@ -1,4 +1,3 @@
-নিচেরটা `.md` file-এ সরাসরি paste করতে পারো:
 
 ````md
 # 🧪 Task 1 — Image Processing with OpenCV
