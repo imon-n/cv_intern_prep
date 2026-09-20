@@ -65,14 +65,11 @@ I used the `OpenCV` library, imported as `cv2`.
 **Answer:**
 OpenCV is used for image processing, computer vision, video processing, image reading, resizing, filtering, edge detection, and many other CV tasks.
 
----
-
 ## 3. What does `cv2.imread()` do?
 
 **Answer:**
 `cv2.imread()` reads an image from a file and returns it as a NumPy array.
 
----
 
 ## 4. What does this line do?
 
