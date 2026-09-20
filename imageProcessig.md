@@ -1,8 +1,6 @@
 
 # 🧪 Task 1 — Basic Image Processing and Canny Edge Detection using Python + OpenCV
 
----
-
 ## Question
 
 Write a Python program using OpenCV to read an image, resize it to `640 × 480`, convert it to grayscale, apply Gaussian Blur, perform Canny Edge Detection, save the result as `output_edges.jpg`, and display both the original and edge-detected images.
