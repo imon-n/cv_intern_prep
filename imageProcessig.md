@@ -58,8 +58,6 @@ cv2.destroyAllWindows()
 **Answer:**
 I used the `OpenCV` library, imported as `cv2`.
 
----
-
 ## 2. Why do you use OpenCV?
 
 **Answer:**
@@ -80,14 +78,10 @@ image = cv2.imread("football.png")
 **Answer:**
 It reads the `football.png` image into memory.
 
----
-
 ## 5. What does `cv2.resize()` do?
 
 **Answer:**
 It changes the dimensions or resolution of an image.
-
----
 
 ## 6. Why did you use `(640, 480)`?
 
@@ -99,42 +93,30 @@ Width  = 640
 Height = 480
 ```
 
----
-
 ## 7. What does `cv2.cvtColor()` do?
 
 **Answer:**
 It converts an image from one color space to another.
-
----
 
 ## 8. Why do you use `cv2.COLOR_BGR2GRAY`?
 
 **Answer:**
 OpenCV normally reads color images in BGR format. `COLOR_BGR2GRAY` converts the BGR image into grayscale.
 
----
-
 ## 9. Why convert the image to grayscale?
 
 **Answer:**
 Grayscale contains only intensity information, so it reduces the amount of data and makes many image-processing operations simpler and faster.
-
----
 
 ## 10. What is Gaussian Blur?
 
 **Answer:**
 Gaussian Blur is an image smoothing technique used to reduce noise and small unwanted details before further processing.
 
----
-
 ## 11. Why did you use `(5, 5)` in Gaussian Blur?
 
 **Answer:**
 `(5, 5)` is the Gaussian kernel size. It determines the neighborhood used for smoothing.
-
----
 
 ## 12. What does the `0` mean here?
 
@@ -145,21 +127,15 @@ cv2.GaussianBlur(gray, (5, 5), 0)
 **Answer:**
 It means the Gaussian sigma value is calculated automatically by OpenCV.
 
----
-
 ## 13. Why do we apply Gaussian Blur before Canny?
 
 **Answer:**
 Gaussian Blur reduces noise. This helps Canny Edge Detection avoid detecting unnecessary noise as edges.
 
----
-
 ## 14. What is Canny Edge Detection?
 
 **Answer:**
 Canny is an edge detection algorithm used to identify boundaries or sharp intensity changes in an image.
-
----
 
 ## 15. What do `50` and `150` mean in Canny?
 
@@ -176,70 +152,50 @@ cv2.Canny(blur, 50, 150)
 
 They are used by Canny to determine weak and strong edges.
 
----
-
 ## 16. What happens if the Canny thresholds are changed?
 
 **Answer:**
 Changing the thresholds changes how many edges are detected. Lower thresholds may detect more edges, including noise, while higher thresholds may detect fewer edges.
-
----
 
 ## 17. What does `cv2.imwrite()` do?
 
 **Answer:**
 It saves an image to a file.
 
----
-
 ## 18. Why do you use `output_edges.jpg`?
 
 **Answer:**
 It is the required output filename for saving the Canny edge-detected image.
-
----
 
 ## 19. What does `cv2.imshow()` do?
 
 **Answer:**
 It displays an image in an OpenCV window.
 
----
-
 ## 20. Why do you use two `imshow()` functions?
 
 **Answer:**
 One displays the original image and the other displays the edge-detected image so they can be compared.
-
----
 
 ## 21. What does `cv2.waitKey(0)` do?
 
 **Answer:**
 It waits indefinitely until the user presses a key.
 
----
-
 ## 22. What does `cv2.destroyAllWindows()` do?
 
 **Answer:**
 It closes all OpenCV display windows.
-
----
 
 ## 23. What happens if `waitKey(0)` is not used?
 
 **Answer:**
 The display window may close immediately because the program will continue execution.
 
----
-
 ## 24. What happens if the image path is wrong?
 
 **Answer:**
 `cv2.imread()` may return `None`, and later image-processing operations can fail.
-
----
 
 ## 25. How would you check whether the image was loaded successfully?
 
@@ -249,8 +205,6 @@ The display window may close immediately because the program will continue execu
 if image is None:
     print("Image not found")
 ```
-
----
 
 ## 26. What is the complete image-processing pipeline?
 
