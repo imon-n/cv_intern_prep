@@ -1,9 +1,5 @@
 
-# 🧪 Task 1 — Image Processing with OpenCV
-
-## Task Name
-
-**Basic Image Processing and Canny Edge Detection using Python + OpenCV**
+# 🧪 Task 1 — Basic Image Processing and Canny Edge Detection using Python + OpenCV
 
 ---
 
@@ -328,5 +324,3 @@ If the interviewer asks quickly, remember these:
 
 **To keep the image window open until a key is pressed.**
 
-```
-```
