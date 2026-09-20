@@ -1,5 +1,4 @@
 
-````md
 # 🧪 Task 1 — Image Processing with OpenCV
 
 ## Task Name
